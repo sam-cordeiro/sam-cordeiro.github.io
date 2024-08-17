@@ -1,0 +1,191 @@
+.just-another-hand-regular {
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;}
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+* {margin: 0;}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #ffff;
+    justify-content: space-between;
+}
+#logo{
+    font-family: "Just Another Hand";
+    font-size: 50px;
+    margin-left: 250px;
+    margin-top: 18px;
+}
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+
+#circle_user{
+    margin-top: 30px;
+}
+
+#circle_user svg{
+    height: 30px;
+    width: 30px;
+}
+
+#carrinho{
+    margin-top: 32px;
+}
+
+#carrinho svg{
+    height: 30px;
+    width: 30px;
+}
+
+#busca input{
+    width: 420px;
+    height: 25px;
+    margin-top: 32px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 2%;
+}
+
+
+
+section{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Quicksand";
+}
+    
+#formulario{
+    border: 5px solid black;
+    height: 420px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    color: black;
+    font-size: 36px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+#formulario input{
+    border: 2px solid black;
+    width: 90%;
+}
+    
+    
+#email{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+    
+#email input{
+    border-radius: 60px;
+    padding-left: 10px;
+    height: 25px;
+}
+    
+#senha{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+#senha input{
+    border-radius: 60px;
+    padding-left: 10px;
+    height: 25px;
+}
+    
+#confirmar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+#confirmar input{
+    border-radius: 60px;
+    padding-left: 10px;
+    height: 25px;
+}
+    
+#registrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    background-color: #afa0a0;
+    width: 50%;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+    
+#registrar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#registrar:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-color: #685757;
+}
+#registrar:hover a{
+    color: white;
+}
+
+footer {
+    background-color: #ffff;
+    width: 100%;
+    height: 300px;
+    padding-top: 160px;
+}
+
+footer p{
+    font-family: "Quicksand";
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;   
+}
+
+footer div{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 250px;
+}
+
+footer div svg{
+    height: 20px;
+    width: 20px;
+}
+footer div a{
+    text-decoration: none;
+    font-family: "Quicksand";
+    color: black;
+}
+#footer1{
+    padding-top: 60px;
+}

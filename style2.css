@@ -1,0 +1,158 @@
+.just-another-hand-regular {
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;}
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+* {margin: 0;}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: #ffff;
+    justify-content: space-between;
+}
+#logo{
+    font-family: "Just Another Hand";
+    font-size: 50px;
+    margin-left: 250px;
+    margin-top: 18px;
+}
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+
+#circle_user{
+    margin-top: 30px;
+}
+
+#circle_user svg{
+    height: 30px;
+    width: 30px;
+}
+
+#carrinho{
+    margin-top: 32px;
+}
+
+#carrinho svg{
+    height: 30px;
+    width: 30px;
+}
+
+#busca input{
+    width: 420px;
+    height: 25px;
+    margin-top: 32px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 2%;
+}
+
+#cardapio{
+    width: 100%;
+    display: flex;
+    font-size: 40px;
+    font-family: "Julius Sans One";
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#produtos{
+    height: 90vh;
+    width: 100%;
+}
+
+#pag_produtos{
+    display: flex;
+}
+
+#container_prod{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 70px;
+}
+#container_prod2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.produtos{
+    height: 250px;
+    width: 220px;
+    background-color: rgba(222, 233, 12, 0.644);
+    border-radius: 20px;
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand";
+    text-align: center;
+}
+.produtos h3{
+    opacity: 0;
+    margin-top: 10px;
+}
+
+.produtos:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.produtos:hover h3{
+    transform: scale(1.2);
+    transition: 0.5s;
+    opacity: 1;}
+.produtos img{
+    height: 50%;
+    border-radius: 20px;
+}
+
+
+
+footer {
+    background-color: #ffff;
+    width: 100%;
+    height: 300px;
+    padding-top: 160px;
+}
+
+footer p{
+    font-family: "Quicksand";
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;   
+}
+
+footer div{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 250px;
+}
+
+footer div svg{
+    height: 20px;
+    width: 20px;
+}
+footer div a{
+    text-decoration: none;
+    font-family: "Quicksand";
+    color: black;
+}
+#footer1{
+    padding-top: 60px;
+}
